@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
             trigger: element,
             start: `clamp(top ${offsetSetting}%)`,
             end: endSetting,
-            toggleActions: "play complete none reverse"
+            toggleActions: "play complete play complete"
           }
         });
         colorScroll.to("body", { ...colorThemes[modeIndex - 1], duration: durationSetting, ease: easeSetting });
